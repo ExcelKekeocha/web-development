@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment Timezone Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.34/moment-timezone-with-data.min.js"></script>
+</head>
+<body>
+    <script>
+        // Example locales with respective timezones
+        let english = moment.tz("America/New_York").locale("en").format("LLLL");  // New York time
+        let spanish = moment.tz("Europe/Madrid").locale("es").format("LLLL");   // Madrid time
+        let french = moment.tz("Europe/Paris").locale("fr").format("LLLL");    // Paris time
+        let arabic = moment.tz("Asia/Dubai").locale("ar").format("LLLL");      // Dubai time
+        let chinese = moment.tz("Asia/Shanghai").locale("zh").format("LLLL");  // Shanghai time
+        let ibgo = moment.tz("Africa/Lagos").locale("ng").format("LLLL");      // Lagos time
+
+        // Check the output in console
+        console.log("English (New York):", english);
+        console.log("Spanish (Madrid):", spanish);
+        console.log("French (Paris):", french);
+        console.log("Arabic (Dubai):", arabic);
+        console.log("Chinese (Shanghai):", chinese);
+        console.log("Igbo (Lagos):", ibgo);
+    </script>
+</body>
+</html>

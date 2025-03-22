@@ -1,0 +1,46 @@
+#i1{
+    background-color:red;
+    color:white;
+}
+.part1{
+    height:900px;
+    color:white;
+    position:absolute;
+    top:60px;
+    width:1500px;
+
+}
+
+.give{
+    height: 700px ;
+}
+.idk{
+    color: white;
+}
+.paragraph3{
+margin-top:400px ;
+}
+.text2{
+    margin-top: 700px;
+}
+.text3{
+margin-top:120px ;
+}
+.text4{
+margin-top: 120px;
+}
+.bob{
+    width:400px; height:400px;
+}
+.excel{
+    width: 400px; height: 400px;
+}
+.ihavenoidea1{
+position: absolute;
+left: 500px;
+top:100px ;
+bottom: 50px;
+}
+footer{
+    background-color:rgb(255, 5, 5) ;
+}
