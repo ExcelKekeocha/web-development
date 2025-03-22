@@ -1,0 +1,216 @@
+.iuiuttt{
+    display:inline-block;
+}
+#form-control1{
+width:200px;height:40px;
+}
+.Cake,.Cake1,.Cake2{
+   width:400px;
+   height:300px;
+   margin-left: 50px;
+   border-radius:30px ;
+   margin-top: 50px;
+}
+.Cake3,.Cake4,.Cake5,.Cake6{
+    width:300px;
+   height:300px;
+   margin-left: 50px;
+   border-radius:30px ;
+   margin-top: 50px;
+}
+.name1{
+    position:absolute;
+    top:900px;
+    left:160px;
+}
+.name2{
+    position:absolute;
+    top:900px;
+    left:490px;
+}
+.name3{
+    position:absolute;
+    top:900px;
+    left:810px;
+}
+.name4{
+    position:absolute;
+    top:900px;
+    left:1240px;
+}
+.Cake7,.Cake8,.Cake9,.Cake10{
+    width:300px;
+    height:300px;
+    margin-left: 50px;
+    border-radius:30px ;
+    margin-top: 50px;
+}
+.name11{
+    position: absolute;
+    top: 1300px;
+    left:0150px
+}
+.name15{
+    position: absolute;
+    top: 1350px;
+    left:0150px 
+}
+.name12{
+    position: absolute;
+    top: 1300px;
+    left:0450px
+}
+.name16{
+    position: absolute;
+    top: 1350px;
+    left:0450px
+}
+.name13{
+    position: absolute;
+    top: 1300px;
+    left:0775px
+}
+.name17{
+    position: absolute;
+    top: 1350px;
+    left:0775px
+}
+.name14{
+    position: absolute;
+    top: 1300px;
+    left:1075px
+}.name18{
+    position: absolute;
+    top: 1350px;
+    left:1075px
+}
+.pink{
+    background: linear-gradient(rgb(251, 144, 162),rgb(252, 212, 219));
+    height:555px;
+}
+.Choco{
+ background-color: white;
+ width: 120px; height: 40px;
+ margin-left: 40px;
+}
+.Fruit{
+    background-color: white;
+    width: 120px; height: 40px;
+    margin-left: 40px;
+}
+.Red{
+    background-color: white;
+    width: 120px; height: 40px;
+    margin-left: 40px;
+}
+.Straw{
+    background-color: white;
+    width: 120px; height: 40px;
+    margin-left: 40px;
+}
+.Black{
+    background-color: white;
+    width: 120px; height: 40px;
+    margin-left: 40px;
+}
+.Pine{
+    background-color: white;
+    width: 120px; height: 40px;
+    margin-left: 40px;
+}
+.Butter{
+    background-color: white;
+    width: 120px; height: 40px;
+    margin-left: 40px;
+}
+.Kit{
+    background-color: white;
+    width: 120px; height: 40px;
+    margin-left: 40px;
+}
+.cakes{
+    background-color: bisque;
+}
+.cake1000,.cake2000,.cake3000,.cake4000,.cake5000{
+    width: 300px;
+    height: 300px;
+}
+.name1000{
+    position: absolute;
+    left: 125px;
+}
+.name2000{
+position: absolute;
+right: 1000px;
+}
+.name3000{
+    position: absolute;
+    left:690px
+}
+.name4000{
+    position: absolute;
+    left:450px
+
+}
+.cake6000,.cake7000,.cake8000,.cake9000,.cake10000,.cake11000{
+width: 300px;
+height: 300px;
+}
+.name7000{
+    position: absolute;
+    left: 440px;
+}
+.View{
+border-radius: 10px;
+background-color: palevioletred;
+color: pink;
+}
+.giant_cake{
+    width:600px ;
+    height: 400px;
+  position: absolute;
+  right: 25px;
+  top: 3100px;
+}
+.pink_area_logo{
+    background: linear-gradient(palevioletred pink);
+}
+.getout,.uneedtoleave,.class{
+    position: absolute;
+}
+.getout{
+    right:575px;
+}
+.uneedtoleave{
+    right:750px;
+}
+.class{
+    right:925px;
+}
+.nani{
+    background-color: palevioletred;
+    width: 1000px;
+    height: 100px;
+}
+.nani2{
+    position: absolute;
+    left: 135px;
+    top: 3600px;
+}
+.nani3{
+    position: absolute;
+    left: 300px;
+    top: 3600px;
+}
+.nani4{
+    position: absolute;
+    left: 600px;
+    top: 3600px;
+}
+.pushups{
+    border-radius: 30px;
+    width: 250px; height:50px ;
+}
+.footer{
+    width: 1000px;
+}
