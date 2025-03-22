@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+body{
+    background-color: skyblue;
+
+}
+label,input[type="text"]
+{font-size: 30px;
+    font-style: italic;
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> coding quiz</title>
+</head>
+<body>
+    <h1><center>quiz</center></h1>
+<label for="<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <label for="">1.what does document.write mean?</label>
+        <br>
+        <input type="radio"> a. type of p tag but in js
+        <br>
+        <input type="radio"> b. type of p tag but in css
+        <br>
+        <br>
+        <br>
+      <label for="">2.what is a varible</label>
+        <br>
+        <input type="radio"> a. something that store multipul data
+        <br>
+        <input type="radio"> b. something that stores olny one data
+        <br>
+        <br>
+        <br>
+        <label for="">3.what is a array</label>
+        <br>
+        <input type="radio"> a. something that store multipul data
+        <br>
+        <input type="radio"> b. something that stores olny one data
+        <br>
+        <br>
+        <br>
+        4. <label for="">what is deadication</label>
+        <br>
+        <input type="radio"> a. something that stores olny one data
+        <br>
+        <input type="radio"> b. none of above
+    <br>
+    <br>
+    <br>
+    5. <label for="">what a function</label>
+    <br>
+    <input type="radio"> a.somthing that you put the code then put the function name to make it work
+    <br>
+    <input type="radio"> b.none of the above
+    <br>
+    <br>
+    <br>
+    <center><button>submit</button></center>
+    <script>
+        function number(qustion,quizes){
+
+        
+        var myquestions=[
+            {
+                qustion:"what does doument .write mean? ",
+                answers:{
+                    a:"type of p tag but in js",
+                    b:"type of p tag but in css",
+                },
+                correct:"a",
+            },
+            {
+                qustion:"what is varibles",
+                answers:{
+                    a:"something that store multipul data",
+                    b:"something that store only one data",
+                },
+                correct:"b",
+            },
+            {
+                qustion:"what is arrays",
+                answers:{
+                    a:"something that store multipul data",
+                    b:"something that store only one data",
+                },
+                correct:"a",
+            },
+            {
+                qustion:"what is deadiction",
+                answers:{
+                    a:"something that store olny one data",
+                    b:"none of the above",
+                },
+                correct:"a",
+            },
+            {
+                qustion:"what deos functions mean",
+                answers:{
+                    a:"somthing that you put the code then put the function name to make it work",
+                    b:"none of the above",
+                },
+                correct:"a",
+            },
+        
+        ]
+        }
+        function showquizez(){
+var output=[]
+var answers
+for(var i=0;i<qustion.length;i++)
+{
+    answers=[]
+    for(letter in qustion[i].answers)
+    {
+answers.push(
+    "<label>"
+        +'<input type="radio"+i>'
+        +letter+":"
+        qustion[i].answers[letter]
+        +'</label>'
+
+        
+
+)
+    }
+output.push(
+    '<div class="qustion">'+qustions[i].qustions+'</div>'
+
+)
+containner.innerHTML=output.join("")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+        
+
+        
+    </script>
+    </body>
+    </html>

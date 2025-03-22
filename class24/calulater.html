@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            border-radius: 60px;
+            width: 60px; height: 60px;
+            background-color: black;
+            color: white;
+
+        }
+        input[type="text"]
+        {
+            width: 250px; height: 40px;
+        }
+        body{
+            background-color:burlywood ;
+        }
+        .big{
+            border: 4px solid black; 
+            width: 280px; 
+        }
+    </style>
+</head>
+<body>
+    <form name="form1">
+<div class="big">
+    <div>
+        <input type="text"id="textview">
+        </div>
+    </form>
+        <div>
+            
+            <button onclick="clear1()">
+                ac
+            </button>
+            <button onclick="number('-')">
+                +/-
+            </button>
+            <button onclick="number('%')">
+                %
+            </button>
+            <br>
+            <button onclick="number('/')">
+                /
+            </button>
+            <button onclick="number('*')">
+                x
+            </button>
+            <button onclick="number('+')">
+                +
+            </button>
+            <button onclick="number('-')">
+                -
+            </button>
+            <br>
+            <button onclick="number('7')">
+                7
+            </button>
+            <button onclick="number('8')">
+                8
+            </button>
+            <button onclick="number('9')">
+                9
+            </button>
+            <br>
+            <button onclick="number('4')">
+                4
+            </button>
+            <button onclick="number('5')">
+                5
+            </button>
+            <button onclick="number('6')">
+                6
+            </button>
+            <br>
+            <button onclick="number('1')">
+                1
+            </button>
+            <button onclick="number('2')">
+                2
+            </button>
+            <button onclick="number('3')">
+                3
+            </button>
+            <br>
+            <button onclick="number('0')">
+                0
+            </button>
+            <button onclick="number('.')">
+                .
+            </button>
+            <button onclick="equel()">
+                =
+            </button>
+    </div>
+    </div>
+<script>
+    //there are  two was to get the anwers 1. by using if then 2. using eval
+        function equel(){
+var x=document.getElementById("textview").value
+var result=eval(x)
+document.getElementById("textview").value=result
+
+        }
+        function number(num){
+document.getElementById("textview").value+=num
+        }
+        function clear1(){
+document.getElementById("textview").value=""
+
+
+        }
+    </script>
+</body>
+</html>

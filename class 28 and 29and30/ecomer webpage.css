@@ -1,0 +1,84 @@
+header{
+    background-image: radial-gradient(white,pink);
+    height: 900px;
+}
+.dave,.bobby,.bob{
+    display: inline-block;
+    
+}
+header ul li{display: inline; margin-left: 70px;}
+.ii1{
+     height: 40px;
+}
+.ii2{
+    height:40px ;
+
+}
+.bob{
+    position: absolute;
+    left: 1400px;
+}
+.a1{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:Brush Script MT ;
+    font-weight: 200;
+    font-style: italic;
+}
+.ii3{
+width: 800px; height: 800px; 
+}
+.ekwk,.ekck{
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+}
+.ekck{
+margin-left: 600px;
+}
+
+.ekwk{
+font-size: 30px;
+font-family: sans-serif;
+width: 600px;
+margin-left: 20px;
+margin-top: 20px;
+
+}
+.i1,.i2,.i3{
+width: 300px; height: 350px;
+display: inline-block;
+margin-left: 120px;
+border:3px solid black;
+padding-left: 30px ;
+margin-top: 20px;
+margin-bottom: 40px;
+
+
+}
+.iii1,.iii2,.iii3{
+border-radius: 1200px;
+}
+.main{
+background-color: black;
+width: 1500px;
+height: 350epx;
+color: whitesmoke;
+
+}
+.d111,.d222,.d333,.d444{
+display: inline-block;
+margin-left:76px; 
+}
+.ui img{
+width: 400px;height: 400px;
+margin-left:80px ;
+margin-top: 40px;
+
+}
+.dd1,.dd2,.dd3,.dd4{
+    display: inline-block;
+    }
+    .dd1 img,.dd2 img,.dd3 img{
+width: 100px; height:150px ;
+    }
